@@ -32,3 +32,10 @@ button {
 button:hover {
     background-color: darkred;
 }
+.valentine-gif {
+    max-width: 100%; /* Ensures the GIF is not wider than its container */
+    height: auto; /* Keeps the GIF's aspect ratio */
+    display: block; /* Ensures the GIF is centered if you use margin auto */
+    margin: 20px auto; /* Adds vertical space and centers the GIF horizontally */
+    border-radius: 10px; /* Optional: gives the GIF rounded corners */
+}
